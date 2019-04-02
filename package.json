@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-basic",
+  "version": "1.0.0",
+  "description": "nextjs basic",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poomer123/nextjs-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poomer123/nextjs-basic/issues"
+  },
+  "homepage": "https://github.com/poomer123/nextjs-basic#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
