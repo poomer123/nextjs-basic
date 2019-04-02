@@ -1,5 +1,15 @@
-export default () => {
+import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+
+const HomePage = () => {
     return (
-        <div>Welcome to home page with Next.Js</div>
+        <>
+            <Header />
+            Home page
+            <Footer />
+        </>
     )
 }
+
+export default HomePage
