@@ -8,12 +8,24 @@ const Detail = (props) => {
         <Layout title="ข่าว - basic Next.js">
             <div className="row">
                 <div className="col-12">
-                    <h1>{blogData.title}</h1>
-                    <p className="my-5">{blogData.body}</p>
+                    <h1 className="title">{blogData.title}</h1>
+                    <p className="my-5 detail">{blogData.body}</p>
                     <p className="text-right">{userData.name}</p>
                     <p className="text-right"><small>{userData.email}</small></p>
                 </div>
             </div>
+            <style jsx>
+            {`
+                .title {
+                    font-size: 36px;
+                    color: #0acae8;
+                }
+                .detail {
+                    text-align: justify;
+                    font-size: 22px;
+                }
+            `}
+            </style>
         </Layout>
     )
 }
