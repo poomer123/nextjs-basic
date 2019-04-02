@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 const HomePage = () => {
     return (
-        <Layout>
+        <Layout title="หน้าแรก - basic Next.js">
             <div className="row">
                 <div className="col-12">
                     <h1>หน้าแรก</h1>

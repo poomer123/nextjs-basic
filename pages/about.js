@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 const About = () => {
     return (
-        <Layout>
+        <Layout title="เกี่ยวกับเรา - basic Next.js">
             <div className="row">
                 <div className="col-12">
                     <h1>ข่าวสารต่างๆมากมาย</h1>
