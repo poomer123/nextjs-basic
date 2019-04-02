@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Header from './Header'
 import Footer from './Footer'
-import '../static/css/style.css'
+import '../static/css/style.scss'
 
 const Layout = (props) => {
     const { children, title = 'Next.js Basic' } = props

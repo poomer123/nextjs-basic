@@ -1,0 +1,30 @@
+$color: #17a2b8;
+
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: url('/static/fonts/Prompt-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: url('/static/fonts/Prompt-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Prompt-Bold';
+    src: url('/static/fonts/Prompt-Bold.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prompt-Medium';
+    color: $color;
+}
+
+p {
+    font-family: 'Prompt-Regular';
+}
+
+a {
+    font-family: 'Prompt-Regular';
+    color: $color;
+}
