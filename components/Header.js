@@ -23,9 +23,9 @@ const Header = () => {
                 </div>
                 <div className="col-12 col-12 col-md-4 col-lg-7 text-right">
                     <ul className="list-inline pt-3">
-                        <li className="list-inline-item title"><Link href="/">หน้าแรก</Link></li>
+                        <li className="list-inline-item title"><Link href="/"><a>หน้าแรก</a></Link></li>
                         <li className="list-inline-item title">|</li>
-                        <li className="list-inline-item title"><Link href="/about">เกี่ยวกับเรา</Link></li>
+                        <li className="list-inline-item title"><Link href="/about"><a>เกี่ยวกับเรา</a></Link></li>
                     </ul>
                 </div>
                 <div className="col-12 col-md-4 col-lg-1 text-right">
