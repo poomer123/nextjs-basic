@@ -10,7 +10,7 @@ const HomePage = (props) => {
                 blog => {
                     return (
                         <div key={blog.id} className="col-4">
-                            <Link href={'/blog/detail?id='+ blog.id}>
+                            <Link as={'/blog/detail/'+blog.id} href={'/blog/detail?id='+blog.id}>
                                 <a><h4 className="mt-3">{blog.title}</h4></a>
                             </Link>
                             <p>{blog.body}</p>
