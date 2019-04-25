@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "dev-express": "node server.js",
     "start-express": "NODE_ENV=production node server.js"
   },
